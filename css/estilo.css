@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+#hero {
+  height: 1280px;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("/imgs/pexels-danny-meneses-340146-943096.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#hero-banner {
+  max-width: 1300px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#hero-banner .logo {
+  margin: 0;
+  padding: 25px 30px;
+  font-weight: bold;
+  font-size: 24px;
+  color: blueviolet;
+  text-decoration: none;
+}
+
+#hero-banner nav a {
+  padding: 8px 30px;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+#hero-banner nav a:hover {
+  color: black;
+}
+
+#hero-text {
+  height: 500px;
+  margin-top: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(3px)
+}
+
+#hero-text h1 {
+  text-align: center;
+  color: rgb(9, 241, 207);
+  filter: brightness(200%);
+  font-family: "Source Code Pro", sans-serif;
+}
+
+#intro .container {
+  text-align: center;
+  padding: 200px 12px;
+}
+
+#intro span {
+  color: blueviolet;
+}
+
+#lenguajes {
+  background-color: rgb(30, 30, 30);
+  color: white;
+  text-align: center;
+}
+
+#lenguajes .container-len {
+  padding: 150px 12px;
+}
+
+#lenguajes h2 {
+  margin-top: 0;
+  font-size: 3em;
+}
+
+#lenguajes p {
+
+}
+
+#lenguajes .carta {
+  background-position: center center;
+  background-size: cover;
+  padding: 50px;
+  margin: 20px;
+  border-radius: 15px;
+}
+
+.carta:first-child {
+  background-image: url(/imgs/fondo-html.jpg);
+}
+
+.carta:nth-child(2) {
+  background-image: url(/imgs/fondo-css.jpg);
+}
+
+.carta:nth-child(3) {
+  background-image: url(/imgs/fondo-js.jpg);
+}
